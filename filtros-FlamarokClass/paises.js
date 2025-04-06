@@ -5,6 +5,7 @@ class FiltroPaises {
         return {
           pais: e.name.common,
           capital: e.capital !== undefined ? e.capital[0] : "Sin Capital",
+          lenguaje: e.languages
         };
       };
       this.formato = this.defaultFormato;
